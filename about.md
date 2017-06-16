@@ -6,4 +6,5 @@ comments: false
 author_footer: false
 ---
 
-About page, add content here. 
+FordSec is a new research group in computer security at Haverford
+College, led by [Kristopher Micinski](http://kmicinski.com).

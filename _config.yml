@@ -5,10 +5,10 @@ author_avatar: https://gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=50
 email: kris@cs.haverford.edu
 description: "FordSec: Security Research at Haverford College"
 baseurl: "" # optional
-url: "https://fordsec.github.io"
+#url: "https://fordsec.github.io"
 #twitter_username: foo_bar
 #github_username: foo_bar
-github_repo: fordsec/fordsec.github.io
+github: fordsec
 #google_analytics: UA-80085-YOUR-ID
 # disqus: disqus-id
 

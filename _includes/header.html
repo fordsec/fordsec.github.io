@@ -1,6 +1,6 @@
 <header id="main-header">
-  <div id="site-title">
-    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+  <div class="site-title">
+    {{ site.title }}
   </div>
   <div class="links">
   {% assign current = page.title %}
@@ -13,11 +13,11 @@
   {% endfor %}
   <a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank" class="page-link">RSS</a>
   {% if site.github_repo %}
-  <a href="http://github.com/{{ site.github_repo }}"
+  <a href="http://github.com/{{ site.github }}"
     target="_blank"
     class="page-link github-link">
-    <img src="{{ "/images/github-repo.png" | prepend: site.baseurl }}" alt="Github Repository">
-    Source</a>
+    <!-- <img src="{{ "/images/github-repo.png" | prepend: site.baseurl }}" alt="Github Repository"> -->
+    GitHub</a>
   {% endif %}
   </div>
 </header>
