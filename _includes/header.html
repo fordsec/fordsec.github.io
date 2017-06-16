@@ -2,9 +2,13 @@
   <div class="site-title">
     {{ site.title }}
   </div>
+  <div class="site-subtitle">
+    {{ site.subtitle }}
+  </div>
+
   <div class="links">
   {% assign current = page.title %}
-  <a href="{{ site.baseurl }}/" class="page-link{% if current == null %} active{% endif %}">Blog</a>
+  <a href="{{ site.baseurl }}/" class="page-link{% if current == null %} active{% endif %}">Home</a>
   {% for page in site.pages %}
     {% if page.title and page.permalink != "/404.html" %}
       <a class="page-link{% if current == page.title %} active{% endif %}"

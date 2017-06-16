@@ -1,22 +1,20 @@
 /* Base */
 /* ----------------------------------------------------------*/
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 html, body { height: 100%; }
 
 body {
   font-family: "Open Sans";
   font-size: 16px;
-  line-height: 1.5;
   font-weight: 300;
   background-color: #fdfdfd;
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+
+h1 {
+    font-size: 20pt;
+};
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
@@ -60,11 +58,18 @@ a:visited { color: #205caa; }
   margin-left: auto;
   margin-right: auto;
   color: #800000;
-  font-size: 42px;
+  font-weight: 600;
+  font-size: 54pt;
   letter-spacing: -1px;
   line-height: 56px;
   position: relative;
   z-index: 1;
+}
+
+.site-subtitle {
+    font-size: 16pt;
+    color: grey;
+    font-weight: 600;
 }
 
 .site-nav {
@@ -92,7 +97,7 @@ a:visited { color: #205caa; }
   font-size: 18px;
   font-weight: 300;
   letter-spacing: -.5px;
-  margin-bottom: 15px;
+  //margin-bottom: ;
 }
 
 .site-footer .column { float: left; margin-bottom: 15px; }
@@ -452,9 +457,9 @@ em {
 }
 
 #main-header {
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     border-bottom: 2px solid black;
-    margin: 40px auto 0 auto;
+    margin: 40px auto 15px auto;
 }
 
 .links {
@@ -485,7 +490,7 @@ em {
 }
 
 #content {
-    margin: 40px 0 0 0;
+    //margin: 10px 0 0 0;
 }
 
 #articles {
@@ -497,9 +502,6 @@ em {
 
 .entry {
     overflow: auto;
-    margin: 0 0 35px 0;
-    padding-top: 35px;
-    border-top: 1px solid #e7e7e7;
 }
 .entry h1 {
     font-weight: 700;
